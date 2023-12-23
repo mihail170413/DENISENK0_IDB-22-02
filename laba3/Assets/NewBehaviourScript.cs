@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public GameObject cube;
-
-    public void noness ()
-    {
-        if (cube.activeSelf == true)
-            cube.SetActive(false);
-        else
-            cube.SetActive(true);
-    }
+    // Start is called before the first frame update
     void Start()
     {
         

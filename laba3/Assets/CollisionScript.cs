@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scr : MonoBehaviour
+public class CollisionScript : MonoBehaviour
 {
 
-   public int k = 10;
+
+    public int collisionCounter = 100;
+    // Start is called before the first frame update
+
     public void OnCollisionEnter()
     {
-        Debug.Log("1");
-        k -= 1;
+        collisionCounter--;
     }
-
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
